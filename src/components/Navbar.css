@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .menu-icon {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    position: absolute;
+    top: 40px;
+    left: -200px;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.8);
+    list-style: none;
+    padding: 10px;
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .nav-links.open {
+    left: 10px;
+  }
+  
+  .nav-links li {
+    margin: 10px 0;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  

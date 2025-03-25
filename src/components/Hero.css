@@ -1,0 +1,21 @@
+.hero {
+    height: 100vh;
+    background: url('../assets/chris-davis-keyboard.jpg') no-repeat center center/cover;
+        /* Photo by <a href="https://unsplash.com/@chrisjdavis?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+        Chris J. Davis</a>
+        on <a href="https://unsplash.com/photos/a-close-up-of-a-computer-keyboard-on-a-desk-PT_9ux0j-x4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+        Unsplash</a>
+        */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
