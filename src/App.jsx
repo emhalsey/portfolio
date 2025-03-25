@@ -1,56 +1,41 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-
-// function App() {
-//   const [count, setCount] = useState(0)
-
-//   return (
-//     <>
-//       <div>
-//         <a href="https://vite.dev" target="_blank">
-//           <img src={viteLogo} className="logo" alt="Vite logo" />
-//         </a>
-//         <a href="https://react.dev" target="_blank">
-//           <img src={reactLogo} className="logo react" alt="React logo" />
-//         </a>
-//       </div>
-//       <h1>Vite + React</h1>
-//       <div className="card">
-//         <button onClick={() => setCount((count) => count + 1)}>
-//           count is {count}
-//         </button>
-//         <p>
-//           Edit <code>src/App.jsx</code> and save to test HMR
-//         </p>
-//       </div>
-//       <p className="read-the-docs">
-//         Click on the Vite and React logos to learn more
-//       </p>
-//     </>
-//   )
-// }
-
-// export default App
-
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import "./App.css";
+import { useState } from 'react'
+import LinkedIn from "./assets/linkedin.png"
+import GitHub from "./assets/github.png"
+import './App.css'
 
 function App() {
+
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
+      <div>
+        <a href="https://linkedin.com/in/emhalsey" target="_blank">
+        {/* opens linkedin in a new page */}
+          <img src={LinkedIn} className="logo" alt="LinkedIn logo" />
+        </a>
+        <a href="https://github.com/emhalsey" target="_blank">
+          <img src={GitHub} className="logo react" alt="GitHub logo" />
+        </a>
+      </div>
+      <h1>Emma Halsey</h1>
+      <div className="card">
+        <button onClick={() => scrollToSection(aboutRef)}>About</button>
+        <br></br>
+        <br></br>
+        <button onClick={() => scrollToSection(projectsRef)}>Projects</button>
+        <br></br>
+        <br></br>
+        <button onClick={() => scrollToSection(contactRef)}>Contact</button>
+        <p>
+          Edit <code>src/App.jsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+      
     </>
-  );
+  )
 }
 
-export default App;
+
+export default App
