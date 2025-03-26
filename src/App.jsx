@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import LinkedIn from "./assets/linkedin.png"
 import GitHub from "./assets/github.png"
+import Email from "./assets/email.png"
 import './App.css'
 
 function App() {
@@ -20,6 +21,10 @@ function App() {
         </a>
         <a href="https://github.com/emhalsey" target="_blank">
           <img src={GitHub} className="logo github" alt="GitHub logo" />
+        </a>
+        <a href="mailto:emma.m.halsey@gmail.com" target="_blank">
+          <img src={Email} className="logo email" alt="Email icon" />
+          <span class="logo email tooltiptext">emma.m.halsey@gmail.com</span>
         </a>
       </div>
       <p className="read-the-docs">
