@@ -37,14 +37,36 @@
   padding: 2em;
 }
 
+.popup {
+  width: 35em;
+  height: 18em;
+  margin: auto;
+  background-color: lightgray;
+  border: black;
+}
+
+.tab {
+  width: 35em;
+  height: 3em;
+  margin: auto;
+  background-color: black;
+}
+
+.exit {
+  width: 2em;
+  height: 2em;
+  background-color: whitesmoke;
+  float: right;
+}
+
 .read-the-docs {
   color: #888;
 }
 
-/* EMAIL HOVER ======================================================================================== */
-.logo.email .tooltiptext {
+/* ======================== EMAIL HOVER ======================== */
+.logo.email.tooltip {
   visibility: hidden;
-  width: 120px;
+  max-width: 10em;
   background-color: black;
   color: #fff;
   text-align: center;
@@ -56,6 +78,6 @@
   z-index: 1;
 }
 
-.logo.email:hover .tooltiptext {
+.logo.email.tooltip:hover {
   visibility: visible;
 }

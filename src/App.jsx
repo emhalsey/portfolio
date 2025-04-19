@@ -11,7 +11,7 @@ function App() {
       <h1>Emma Halsey</h1>
       <div className="card">
         <p>
-          Data Engineeering, Project Management, and Operations
+          Data Everything
         </p>
       </div>
       <div>
@@ -24,7 +24,7 @@ function App() {
         </a>
         <a href="mailto:emma.m.halsey@gmail.com" target="_blank">
           <img src={Email} className="logo email" alt="Email icon" />
-          <span class="logo email tooltiptext">emma.m.halsey@gmail.com</span>
+          <span class="logo email tooltip">emma.m.halsey@gmail.com</span>
         </a>
       </div>
       <p className="read-the-docs">
@@ -34,6 +34,12 @@ function App() {
         <button onClick={() => scrollToSection(aboutRef)}>About</button>
         <button onClick={() => scrollToSection(projectsRef)}>Projects</button>
         <button onClick={() => scrollToSection(contactRef)}>Contact</button>
+      </div>
+      <div className="tab">
+        <div className="exit"></div>
+      </div>
+      <div className="popup">
+        lsdahfkjdslgawgawhrkg
       </div>
       
     </>
