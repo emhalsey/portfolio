@@ -1,0 +1,25 @@
+/* Carousel.css */
+
+.carousel {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.slide {
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.slide-image {
+    width: 100%;
+    height: auto;
+}

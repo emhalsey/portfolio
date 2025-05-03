@@ -37,47 +37,6 @@
   padding: 2em;
 }
 
-.popup {
-  width: 35em;
-  height: 18em;
-  margin: auto;
-  background-color: lightgray;
-  border: black;
-}
-
-.tab {
-  width: 35em;
-  height: 3em;
-  margin: auto;
-  background-color: black;
-}
-
-.exit {
-  width: 2em;
-  height: 2em;
-  background-color: whitesmoke;
-  float: right;
-}
-
 .read-the-docs {
   color: #888;
-}
-
-/* ======================== EMAIL HOVER ======================== */
-.logo.email.tooltip {
-  visibility: hidden;
-  max-width: 10em;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.logo.email.tooltip:hover {
-  visibility: visible;
 }

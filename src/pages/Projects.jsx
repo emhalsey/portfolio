@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from '../components/Carousel'
 
 const Projects = () => {
   return (
@@ -8,6 +9,10 @@ const Projects = () => {
         <div className="popup-window">Project 1</div>
         <div className="popup-window">Project 2</div>
       </div>
+      <>
+            <h2 style={{ textAlign: "center" }}>Carousel Show</h2>
+            <Carousel />
+        </>
     </section>
   );
 };
