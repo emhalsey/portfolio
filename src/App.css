@@ -8,6 +8,8 @@
   text-align: center;
   overflow-x: hidden;
   overflow-y: auto;
+  
+  background-color: rgb(176, 232, 246);
 }
 
 .logo {
