@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import './Navbar.css';
+import './components_css/Navbar.css'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <button className="menu-btn" onClick={() => setIsOpen(!isOpen)}>
-        ☰
+        ☰ Menu
       </button>
       {isOpen && (
         <div className="nav-panel">

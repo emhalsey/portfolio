@@ -1,6 +1,6 @@
-import LinkedIn from "../assets/linkedin.png"
-import GitHub from "../assets/github.png"
-import Email from "../assets/email.png"
+import LinkedIn from "../../public/linkedin.png"
+import GitHub from "../../public/github.png"
+import Email from "../../public/email.png"
 import React from 'react';
 
 const Contact = () => {

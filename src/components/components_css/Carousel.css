@@ -1,25 +1,53 @@
-/* Carousel.css */
-
-.carousel {
-    width: 90%;
+.carousel-wrapper {
+    max-width: 100vw;
+    overflow: hidden;
+    padding: 2rem 0;
+    box-sizing: border-box;
+  }
+  
+  .carousel-slide {
     margin: 0 auto;
-}
-
-.slide {
-    width: 90vw;
-    height: 60vh;
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 0.2em solid black;
+    text-align: center;
+    font-family: 'Press Start 2P', 'Consolas', 'Courier New', monospace;
+    font-size: 16px;
+    box-shadow: 0.2em 0.2em 0 black;
+  }
+  
+  .slick-slide {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.slide img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-}
-
-.slide-image {
-    width: 100%;
-    height: auto;
-}
+  }
+  
+  .custom-arrow {
+    z-index: 2;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    background-color: white;
+    border: 0.1em solid black;
+    color: black;
+    box-shadow: 0.1em 0.1em 0 black;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+  }
+  
+  .next-arrow {
+    right: 3.5rem;
+  }
+  
+  .prev-arrow {
+    left: 3.5rem;
+  }
+  

@@ -1,0 +1,17 @@
+* {
+    font-family: 'Consolas', 'Courier New', monospace;
+}
+
+.menu-btn {
+    min-width: 50px;
+    margin: auto;
+    padding: 0.5em;
+}
+
+/* Changing cursors: https://www.w3schools.com/cssref/pr_class_cursor.php */
+.menu-btn:hover {
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.5s;
+    cursor: pointer;
+}
