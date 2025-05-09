@@ -1,6 +1,7 @@
-import LinkedIn from "../../public/linkedin.png"
-import GitHub from "../../public/github.png"
-import Email from "../../public/email.png"
+import LinkedIn from "../assets/linkedin.png"
+import GitHub from "../assets/github.png"
+import Tableau from "../assets/tableau.png"
+import Email from "../assets/email.png"
 import React from 'react';
 
 const Contact = () => {
@@ -15,6 +16,9 @@ const Contact = () => {
         </a>
         <a href="https://github.com/emhalsey" target="_blank">
           <img src={GitHub} className="logo github" alt="GitHub logo" />
+        </a>
+        <a href="https://public.tableau.com/app/profile/emma.halsey/vizzes" target="_blank">
+          <img src={Tableau} className="logo tableau" alt="Tableau logo" />
         </a>
         <a href="mailto:emma.m.halsey@gmail.com" target="_blank">
           <img src={Email} className="logo email" alt="Email icon" />
