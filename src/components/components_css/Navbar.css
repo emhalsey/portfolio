@@ -17,5 +17,11 @@
 }
 
 .nav-panel {
+    text-align: center;
+    padding: 0.5em;
     display: flex;
+    background-color: #fff;
+    border: 0.2em solid black;
+    box-shadow: 0.2em 0.2em 0 black;
+    margin: 2em;
 }

@@ -1,3 +1,5 @@
+/* Carousel documentation: https://react-slick.neostack.com/docs/example/ */
+
 .carousel-wrapper {
     max-width: 100vw;
     overflow: hidden;
@@ -18,12 +20,11 @@
     box-shadow: 0.2em 0.2em 0 black;
   }
   
-  .slick-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .carousel-img {
+    max-width: 300px;
+    border-radius: 6px;
   }
-  
+
   .custom-arrow {
     z-index: 2;
     width: 3rem;
@@ -57,3 +58,27 @@
     left: 3.5rem;
   }
   
+/* Learning CSS Grid: https://www.w3schools.com/css/css_grid.asp */
+  
+.container {
+  display: grid;
+  grid-template-areas:
+    "header photo"
+    "content content";
+  grid-template-columns: 3fr 1fr;
+  gap: 0.5em;
+}
+.container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.2em;
+}
+.container > div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container > div.photo {
+  grid-area: photo;
+}
+.container > div.content {
+  grid-area: content;
+}

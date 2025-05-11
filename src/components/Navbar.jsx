@@ -11,10 +11,13 @@ const Navbar = () => {
       </button>
       {isOpen && (
         <div className="nav-panel">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+            <a href="#home">Home</a>
+            <br></br>
+            <a href="#about">About</a>
+            <br></br>
+            <a href="#projects">Projects</a>
+            <br></br>
+            <a href="#contact">Contact</a>
         </div>
       )}
     </nav>

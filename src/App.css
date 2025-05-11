@@ -20,13 +20,16 @@
   transition: filter 300ms;
 }
 .logo.linkedin:hover {
-  filter: drop-shadow(0 0 2em #0b66c3aa);
+  filter: drop-shadow(0 0 1em #0b66c3aa);
 }
 .logo.github:hover {
-  filter: drop-shadow(0 0 2em #712e99aa);
+  filter: drop-shadow(0 0 1em #712e99aa);
 }
 .logo.tableau:hover {
-  filter: drop-shadow(0 0 2em #0a0c6faa);
+  filter: drop-shadow(0 0 1em #0a0c6faa);
+}
+.logo.email:hover {
+  filter: drop-shadow(0 0 1.5em #ffffffaa);
 }
 
 .card {
