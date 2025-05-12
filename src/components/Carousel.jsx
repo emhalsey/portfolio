@@ -5,9 +5,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./components_css/Carousel.css";
-import Centro from "../assets/centro.jpeg";
-import SUV from "../assets/suv.jpg";
-import AACSB from "../assets/AACSB.png";
+import Centro from "../photos/centro.jpeg";
+import SUV from "../photos/suv.jpg";
+import AACSB from "../photos/AACSB.png";
 
 function NextArrow(props) {
     const { className, style, onClick } = props;

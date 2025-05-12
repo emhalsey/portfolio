@@ -1,7 +1,7 @@
-import LinkedIn from "../assets/linkedin.png"
-import GitHub from "../assets/github.png"
-import Tableau from "../assets/tableau.png"
-import Email from "../assets/email.png"
+import LinkedIn from "../photos/linkedin.png"
+import GitHub from "../photos/github.png"
+import Tableau from "../photos/tableau.png"
+import Email from "../photos/email.png"
 import React from 'react';
 
 const Contact = () => {
