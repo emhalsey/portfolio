@@ -2,10 +2,30 @@
     font-family: 'Consolas', 'Courier New', monospace;
 }
 
-.menu-btn {
-    min-width: 50px;
+.nav-panel {
+  text-align: center;
+  padding: 0.5em;
+  display: flex;
+}
+
+/* https://www.geeksforgeeks.org/how-to-center-a-table-with-css/ */
+
+table {
     margin: auto;
+    background-color: white;
+    border: 0.1em solid black;
+    color: black;
+    box-shadow: 0.1em 0.1em 0 black;
+}
+
+td {
     padding: 0.5em;
+}
+
+.menu-btn {
+  min-width: 50px;
+  margin: auto;
+  padding: 0.5em;
 }
 
 /* Changing cursors: https://www.w3schools.com/cssref/pr_class_cursor.php */
@@ -14,14 +34,4 @@
     color: whitesmoke;
     transition: 0.5s;
     cursor: pointer;
-}
-
-.nav-panel {
-    text-align: center;
-    padding: 0.5em;
-    display: flex;
-    background-color: #fff;
-    border: 0.2em solid black;
-    box-shadow: 0.2em 0.2em 0 black;
-    margin: 2em;
 }

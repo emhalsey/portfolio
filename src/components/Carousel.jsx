@@ -62,8 +62,12 @@ const Carousel = () => {
               <div class="header">
                 <h2>Centro Bus Predictor</h2>
                 <p>MySQL | Python | API keys | Postman | Jira | Draw.io | GitHub Version Control</p>
-                <a href="pi.cs.oswego.edu:3000" target="_blank"><b>Website  </b></a> 
-                <a href="https://github.com/emhalsey/csc380-team-e-s25/" target="_blank"><b>  GitHub</b></a>
+                <table>
+                  <tr>
+                    <td><a href="pi.cs.oswego.edu:3000" target="_blank"><b>Website</b></a></td>
+                    <td><a href="https://github.com/emhalsey/csc380-team-e-s25/" target="_blank"><b>GitHub</b></a></td>
+                  </tr>
+                </table>
               </div>
               <div class="photo">
                 <img src={Centro} 
@@ -91,8 +95,12 @@ const Carousel = () => {
                 <h2>Vehicle Python Analysis</h2>
                 <p>Web Scraping | Multi-Attribute Decision Modelling (MADM)</p>
                 <p>Pandas | NumPy | Pygal | PathLib | Scikit-Learn</p>
-                <a href="http://cs.oswego.edu/~ehalsey/coursework/other/ranked.svg" target="_blank"><b>Output  </b></a> 
-                <a href="https://github.com/emhalsey/car_shopping" target="_blank"><b>  GitHub</b></a>
+                <table>
+                  <tr>
+                    <td><a href="http://cs.oswego.edu/~ehalsey/coursework/other/ranked.svg" target="_blank"><b>Output</b></a></td>
+                    <td><a href="https://github.com/emhalsey/car_shopping" target="_blank"><b>GitHub</b></a></td>
+                  </tr>
+                </table>
               </div>
               <div class="photo">
                 <br></br>
@@ -121,7 +129,11 @@ const Carousel = () => {
               <div class="header">
                 <h2>AACSB Accreditation Mapping</h2>
                 <p>Excel | Tableau</p>
-                <a href="https://public.tableau.com/app/profile/emma.halsey/viz/MapofUSAInstitutionsbyAccreditationStatusandSize/MapofBachelorsBusinessDegreesGranted2023"target="_blank"><b>Tableau</b></a>
+                <table>
+                  <tr>
+                    <td><a href="https://public.tableau.com/app/profile/emma.halsey/viz/MapofUSAInstitutionsbyAccreditationStatusandSize/MapofBachelorsBusinessDegreesGranted2023"target="_blank"><b>Tableau</b></a></td>
+                  </tr>
+                </table>
               </div>
               <div class="photo">
                 <img src={AACSB} 
